@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "autogpt_platform/autogpt_libs"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 10
     target-branch: "dev"
     commit-message:
@@ -26,7 +26,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "autogpt_platform/backend"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 10
     target-branch: "dev"
     commit-message:
@@ -48,7 +48,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "autogpt_platform/frontend"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 10
     target-branch: "dev"
     commit-message:
@@ -70,7 +70,7 @@ updates:
   - package-ecosystem: "terraform"
     directory: "autogpt_platform/infra"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 5
     target-branch: "dev"
     commit-message:
@@ -93,7 +93,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "autogpt_platform/market"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 10
     target-branch: "dev"
     commit-message:
@@ -116,7 +116,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 5
     target-branch: "dev"
     groups:
@@ -136,7 +136,7 @@ updates:
   - package-ecosystem: "docker"
     directory: "autogpt_platform/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 5
     target-branch: "dev"
     groups:
@@ -156,7 +156,7 @@ updates:
   - package-ecosystem: "gitsubmodule"
     directory: "autogpt_platform/supabase"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 1
     target-branch: "dev"
     commit-message:
@@ -179,7 +179,7 @@ updates:
   - package-ecosystem: 'pip'
     directory: "docs/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 1
     target-branch: "dev"
     commit-message:
