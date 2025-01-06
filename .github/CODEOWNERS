@@ -1,4 +1,4 @@
-* @Significant-Gravitas/maintainers
+* @nxpkg
 .github/workflows/ @Significant-Gravitas/devops
 classic/forge/ @Significant-Gravitas/forge-maintainers
 classic/benchmark/ @Significant-Gravitas/benchmark-maintainers
